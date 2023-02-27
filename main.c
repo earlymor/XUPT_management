@@ -17,21 +17,13 @@ typedef struct Node {
 } Node;
 
 void data_add(Node*);  // 增加数据
-
 void data_delete(Node*);  // 删除数据
-
-void data_find(Node*);  // 查找数据
-
+void data_find(Node*);    // 查找数据
 void data_modify(Node*);  // 修改数据
-
 void data_sort(Node*);  // 数据排序
-
 void data_print(Node*);  // 打印数据
-
 void data_save(Node*);  // 保存数据
-
 void data_account(Node*);  // 统计数据
-
 void menu();
 
 // void IO_ReadInfo();			//读取文件
