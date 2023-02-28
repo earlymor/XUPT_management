@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <unistd.h>  //linux sleep()
 // #include<windows.h> sleep()
-#define FILENAME "/home/earlymor/VSCODE/c/XUPT_management/INFO.txt"
+#define FILENAME "INFO.txt"
 #define SIZE 1000
 typedef struct Member {
     char name[30];        // 会员姓名
