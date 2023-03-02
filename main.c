@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>  //strcmp
-#include <unistd.h>  //linux sleep()
 #include "wcsys.h"
-// #include<windows.h> sleep()
 #define FILENAME "INFO.txt"
 #define ACCOUNT "account.txt"
 #define SIZE 1000
